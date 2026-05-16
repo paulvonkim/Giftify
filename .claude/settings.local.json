@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Read(//Users/paul_kim/Documents/OOUX/**)",
+      "Bash(npx create-next-app@latest giftify-app --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp -r /Users/paul_kim/Documents/OOUX/giftify-app/. /Users/paul_kim/Documents/OOUX/Giftify/)",
+      "Bash(rm -rf /Users/paul_kim/Documents/OOUX/giftify-app)",
+      "Bash(npx shadcn@latest init --defaults --yes)",
+      "Bash(npx shadcn@latest add card dialog form input label select textarea badge tabs badge separator scroll-area sheet avatar dropdown-menu --yes)",
+      "Bash(npx shadcn@latest add alert-dialog toast popover command --yes)",
+      "Bash(npx shadcn@latest add alert-dialog popover command sonner --yes)",
+      "Bash(mkdir -p /Users/paul_kim/Documents/OOUX/Giftify/src/app/people/[id] /Users/paul_kim/Documents/OOUX/Giftify/src/app/products /Users/paul_kim/Documents/OOUX/Giftify/src/app/gifts /Users/paul_kim/Documents/OOUX/Giftify/src/app/holidays /Users/paul_kim/Documents/OOUX/Giftify/src/app/occasions /Users/paul_kim/Documents/OOUX/Giftify/src/components)",
+      "Bash(mkdir -p \"/Users/paul_kim/Documents/OOUX/Giftify/src/app/people/[id]\" \"/Users/paul_kim/Documents/OOUX/Giftify/src/app/products\" \"/Users/paul_kim/Documents/OOUX/Giftify/src/app/gifts\" \"/Users/paul_kim/Documents/OOUX/Giftify/src/app/holidays\" \"/Users/paul_kim/Documents/OOUX/Giftify/src/app/occasions\")",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Bash(node /Users/paul_kim/Documents/OOUX/Giftify/node_modules/next/dist/bin/next build)",
+      "Bash(node /Users/paul_kim/Documents/OOUX/Giftify/node_modules/next/dist/bin/next dev --port 3456)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3456/)",
+      "Bash(kill %1)",
+      "Bash(npx shadcn@latest add calendar --yes)",
+      "Bash(node -e \"console.log\\(require\\('/Users/paul_kim/Documents/OOUX/Giftify/node_modules/react-day-picker/package.json'\\).version\\)\")",
+      "Bash(node -e \"const rdp = require\\('/Users/paul_kim/Documents/OOUX/Giftify/node_modules/react-day-picker'\\); console.log\\(Object.keys\\(rdp\\).slice\\(0,20\\)\\)\")"
+    ],
+    "additionalDirectories": [
+      "/Users/paul_kim/Documents/OOUX/Giftify/src/app/people"
+    ]
+  }
+}
